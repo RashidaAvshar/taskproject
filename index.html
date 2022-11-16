@@ -18,26 +18,28 @@
     <!-- start header -->
     <header>
         <div class="top-header">
+        <div class="tel">
             <span>Dəstək xidməti: (012) 599-08-02; (012) 505-08-02</span>
-            <nav class="top-header-right">
-                <ul>
-                    <li>
-                        <select name="" id="">
-                        <option value="">RU</option>
-                        <option value="">AZ</option>
-                    </select>
-                    </li>
-                    <li><a href="https://bina.az/bookmarks">
-                            <i class="fa-solid fa-heart"></i>
-                            <span>Seçilmişlər</span>
-                        </a>
-                    </li>
-                    <li><a href="https://bina.az/company_session/new">
-                            <i class="fa-solid fa-user"></i>
-                            <span>Giriş</span>
-                        </a> </li>
-                </ul>
+        </div>        
+        <div class="lang">
+            <select name="" id="">
+                <option value="">RU</option>
+                <option value="">AZ</option>
+            </select>
+        </div>
+        <div class="selected">
+            <nav>
+                <i class="fa-solid fa-heart"></i>
+                        <span>Seçilmişlər</span>
             </nav>
+        </div>
+        <div class="login">           
+            <nav>
+                <i class="fa-solid fa-user">  </i>
+                <span>Giriş</span>
+            </nav>
+        </div>
+        
         </div>
         <div class="main-header">
             <nav class="main-header-left">
@@ -62,7 +64,7 @@
             <nav class="main-header-right">
                 <a href="https://bina.az/items/new">
                     <i class="fa-solid fa-plus"></i>
-                    <span class="color" green>Elan yerləşdir</span>
+                    <span class="color" style="color: green;" >Elan yerləşdir</span>
                     <script src="https://kit.fontawesome.com/385a791c18.js" crossorigin="anonymous"></script>
                 </a>
             </nav>
@@ -75,7 +77,8 @@
                 </select>
             </div>
 
-            <div class="home-type">
+            <div class="home-type"> 
+                                                                                 <!-- select optionla evez olunmalidir? -->
                 <ul>
                     <li>
                         <input type="checkbox">Mənzil
@@ -133,24 +136,27 @@
                 </ul>
             </div>
             <div class="city">
-                <ul> <span>Şəhər</span><i class="fa-solid fa-chevron-down"></i>
-                    <li><input type="checkbox">Ağcabədi</li>
-                    <li><input type="checkbox">Ağdaş</li>
-                    <li><input type="checkbox">Ağsu</li>
-                    <li><input type="checkbox">Astara</li>
-                    <li><input type="checkbox">Bakı</li>
-                    <li><input type="checkbox">Balakən</li>
-                    <li><input type="checkbox">Beyləqan</li>
-                    <li><input type="checkbox">Bərdə</li>
-                    <li><input type="checkbox">Fizuli</li>
-                    <li><input type="checkbox">Göygöl</li>
-                    <li><input type="checkbox">Xaçmaz</li>
-                    <li><input type="checkbox">Xırdalan</li>
-                    <li><input type="checkbox">Qax</li>
-                    <li><input type="checkbox">Qəbələ</li>
-                    <li><input type="checkbox">Qusar</li>
-                    <li><input type="checkbox">Masallı</li>
-                </ul>
+                <span>Şəhər</span>
+                <form action="">
+                    <select name="city" id="city">
+                        <option value="">Ağcabədi <input type="checkbox" name="" id=""></option> 
+                        <option value="">Ağdaş <input type="checkbox" name="" id=""></option> 
+                        <option value="">Ağsu <input type="checkbox" name="" id=""></option> 
+                        <option value="">Astara <input type="checkbox" name="" id=""></option>
+                        <option value="">Bakı <input type="checkbox" name="" id=""></option>
+                        <option value="">Balakən <input type="checkbox" name="" id=""></option>
+                        <option value="">Beyləqan<input type="checkbox" name="" id=""></option>
+                        <option value="">Bərdə <input type="checkbox" name="" id=""></option>
+                        <option value="">Fizuli <input type="checkbox" name="" id=""></option>
+                        <option value="">Göygöl <input type="checkbox" name="" id=""></option>
+                        <option value="">Xaçmaz <input type="checkbox" name="" id=""></option>
+                        <option value="">Xırdalan <input type="checkbox" name="" id=""></option>
+                        <option value="">Qax <input type="checkbox" name="" id=""></option>
+                        <option value="">Qəbələ <input type="checkbox" name="" id=""></option>
+                        <option value="">Qusar <input type="checkbox" name="" id=""></option>
+                        <option value="">Masallı<input type="checkbox" name="" id=""></option>                        
+                    </select>
+                </form>     
             </div>
             <div class="advance-search">
                 <ul>Ətraflı axtarış <i class="fa-solid fa-chevron-down"></i>
@@ -219,7 +225,120 @@
     <!-- start main -->
     <main>
         <section class="section-buy-rent">
+            <div class="left-buy-rent">
+                <div class="left-buy-rent-top">
+                    <div>
+                        <button>Alış</button>
+                        <button>Kirayə</button>
+                    </div>
+                    <div>
+                        <h3>Bugün - <span>546</span> yeni elan </h3>
+                    </div>
+                </div>
+                <div class="left-buy-rent-buttom">
+                    <ul class="Yeni-tikiliər">Yeni tikiliər
+                        <li>
+                            <a href="#"></a>
+                        </li>
+                        <li>
+                            <a href="#"></a>
+                        </li>
+                        <li>
+                            <a href="#"></a>
+                        </li>
+                        <li>
+                            <a href="#"></a>
+                        </li>
+                        <li>
+                            <a href="#"></a>
+                        </li>
 
+                    </ul>
+                    <ul class="Könhnə-tikililər">Könhnə tikililər
+                        <li>
+                            <a href="#"></a>
+                        </li>
+                        <li>
+                            <a href="#"></a>
+                        </li>
+                        <li>
+                            <a href="#"></a>
+                        </li>
+                        <li>
+                            <a href="#"></a>
+                        </li>
+                        <li>
+                            <a href="#"></a>
+                        </li>
+                        
+                    </ul>
+                    <ul class="Yaşayış-obyektləri">Yaşayış obyektləri
+                        <li>
+                            <a href="#"></a>
+                        </li>
+                        <li>
+                            <a href="#"></a>
+                        </li>
+                        <li>
+                            <a href="#"></a>
+                        </li>
+                        <li>
+                            <a href="#"></a>
+                        </li>
+                        <li>
+                            <a href="#"></a>
+                        </li>                        
+                    </ul>
+                    <ul class="Ticarət-obyektləri">Ticarət obyektləri
+                        <li>
+                            <a href="#"></a>
+                        </li>
+                        <li>
+                            <a href="#"></a>
+                        </li>
+                        <li>
+                            <a href="#"></a>
+                        </li>
+                        <li>
+                            <a href="#"></a>
+                        </li>
+                        <li>
+                            <a href="#"></a>
+                        </li>                        
+                    </ul>
+
+                </div>
+
+
+
+            </div>
+            
+            
+            <div class="right-buy-rent">
+                <div class="right-buy-rent-daily">
+                    <a href="#" target="_blank">
+                        <i></i>
+                        <h2>Günlük kirayə mənzillər</h2>
+                        <span>229</span> <h4>elan</h4> 
+                    </a>
+
+                </div>
+                <div class="right-buy-rent-map">
+                    <a href="#" target="_blank">
+                        <i></i>
+                        <h2>Xəritə üzrə axtarış</h2>
+                        <span>229</span> <h4>elan</h4> 
+                    </a>
+
+                </div>
+                <div class="right-buy-rent-constr">
+                    <a href="#" target="_blank">
+                        <i></i>
+                        <h2>Tikinti xidmətləri</h2>
+                        <span>229</span> <h4>elan</h4> 
+                    </a>
+                </div>
+            </div>
         </section>
 
         <section class="section-vip">
